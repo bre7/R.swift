@@ -6,7 +6,7 @@ project 'ResourceApp/ResourceApp'
 target 'ResourceApp'
 target 'ResourceAppTests'
 
-pod 'R.swift.Library', :git => 'https://github.com/mac-cain13/R.swift.Library.git'
+pod 'R.swift.Library', :git => 'https://github.com/bre7/R.swift.Library.git'
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
