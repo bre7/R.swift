@@ -1,16 +1,21 @@
 PODS:
-  - R.swift.Library (3.0.0.beta.1)
+  - R.swift.Library (3.0.0)
 
 DEPENDENCIES:
-  - R.swift.Library (from `./R.swift.Library`)
+  - R.swift.Library (from `https://github.com/bre7/R.swift.Library.git`)
 
 EXTERNAL SOURCES:
   R.swift.Library:
-    :path: ./R.swift.Library
+    :git: https://github.com/bre7/R.swift.Library.git
+
+CHECKOUT OPTIONS:
+  R.swift.Library:
+    :commit: a5bdfb249936e14705bb9c0f88fa636a2ffd6135
+    :git: https://github.com/bre7/R.swift.Library.git
 
 SPEC CHECKSUMS:
-  R.swift.Library: a95a41bdd4420dd27c2c2c709b0f35d0b2b05224
+  R.swift.Library: 8f2d484f73e6f80ef20c4befd44a9c4e7baedb76
 
-PODFILE CHECKSUM: 7cd35a355bad243c7a21d1bbcec5bf669a3e93b7
+PODFILE CHECKSUM: d2c9152dc7ff5aca961ede70439a87219b459833
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.beta.1
